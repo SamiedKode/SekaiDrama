@@ -159,16 +159,6 @@ export default function DramaBoxDetailPage() {
                   {book.introduction}
                 </p>
               </div>
-<script>
-  atOptions = {
-    'key' : '1bcda6001311acdb1c21b24f4a0864b5',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://welcomingexpulsion.com/1bcda6001311acdb1c21b24f4a0864b5/invoke.js"></script>
               
               {/* Watch Button */}
               <Link

@@ -161,28 +161,6 @@ export default function DramaBoxDetailPage() {
               </div>
               import Script from "next/script";
 
-export default function AdsterraBanner() {
-  return (
-    <div style={{ maxWidth: "468px", margin: "15px auto", textAlign: "center" }}>
-      <Script id="adsterra-options">
-        {`
-          atOptions = {
-            'key' : '1bcda6001311acdb1c21b24f4a0864b5',
-            'format' : 'iframe',
-            'height' : 60,
-            'width' : 468,
-            'params' : {}
-          };
-        `}
-      </Script>
-
-      <Script
-        src="https://welcomingexpulsion.com/1bcda6001311acdb1c21b24f4a0864b5/invoke.js"
-        strategy="afterInteractive"
-      />
-    </div>
-  );
-}
               {/* Watch Button */}
               <Link
                 href={`/watch/dramabox/${book.bookId}`}
